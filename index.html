@@ -7,7 +7,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css" rel="stylesheet">
 
 </head>
-<body class="bg-black h-screen">
+<body class="bg-black md:h-screen">
   
   <header class="bg-gray-900 py-2 px-4 flex items-center justify-between">
     <div>
@@ -76,7 +76,7 @@
     </nav>
   </header>
 
-  <main class="text-gray-400 text-center p-6 grid grid-cols-1 gap-4 md:grid-cols-3">
+  <main class="text-gray-400 text-center p-6 grid grid-cols-1 gap-4 md:grid-cols-3 h-5/6">
     <section class="bg-gray-900 
                     p-16 
                     rounded-t-lg 
@@ -87,6 +87,8 @@
                     items-center 
                     cursor-pointer
                     transform 
+                    mb-4
+                    md:mb-0
                     hover:-translate-y-2 transition-all duration-200">
       <h2 class="sr-only">Discover</h2>
 
@@ -114,6 +116,8 @@
                     items-center
                     cursor-pointer
                     transform 
+                    mb-4
+                    md:mb-0
                     hover:-translate-y-2 transition-all duration-200">
       <h2 class="sr-only">GoStack</h2>
 
@@ -154,9 +158,11 @@
                     flex-col 
                     items-center
                     cursor-pointer
-                    transform 
+                    transform
+                    mb-4
+                    md:mb-0
                     hover:-translate-y-2 transition-all duration-200">
-      <h2 class="sr-only">Starter</h2>
+      <h2 class="sr-only">ExpertsClub</h2>
 
       <div class="mb-24 mt-12">
         <svg width="173" height="48" viewBox="0 0 173 48" fill="none">
